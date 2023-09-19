@@ -1,0 +1,28 @@
+POST http://localhost:3333/agenda
+Content-Type:  application/json
+
+{
+    "date": "02/03/2004",
+    "description": "asd",
+    "duration": 24
+}
+
+###
+
+GET http://localhost:3333/agenda
+
+
+###
+
+PUT http://localhost:3333/agenda/ea5d751e-8c59-40cd-a8c6-4bc927c77e69
+Content-type:  application/json
+
+{
+    "date": "02/03/2004",
+    "description": "Nascimento",
+    "duration": 24
+}
+
+###
+
+DELETE http://localhost:3333/agenda/9ce5c2d3-b9bc-4eec-90d8-094d84d5a0a7
