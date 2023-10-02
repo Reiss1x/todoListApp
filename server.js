@@ -8,7 +8,6 @@
 // server.listen(3333);
 
 import { fastify } from "fastify";
-import { databaseMemory } from "./database-memory.js";
 import { databasePostgres } from "./database-postgres.js";
 
 const server = fastify();

@@ -1,4 +1,4 @@
-POST http://localhost:3333/agenda
+POST https://to-do-list-4md4.onrender.com/agenda
 Content-Type:  application/json
 
 {
@@ -9,12 +9,12 @@ Content-Type:  application/json
 
 ###
 
-GET http://localhost:3333/agenda
+GET https://to-do-list-4md4.onrender.com/agenda
 
 
 ###
 
-PUT http://localhost:3333/agenda/ea5d751e-8c59-40cd-a8c6-4bc927c77e69
+PUT https://to-do-list-4md4.onrender.com/agenda/ea5d751e-8c59-40cd-a8c6-4bc927c77e69
 Content-type:  application/json
 
 {
@@ -25,4 +25,4 @@ Content-type:  application/json
 
 ###
 
-DELETE http://localhost:3333/agenda/bcfbf513-fd02-4cee-9f7b-590fe6dc1689
+DELETE https://to-do-list-4md4.onrender.com/agenda/2b4251d8-940c-4208-8bb3-b506256f6c50
